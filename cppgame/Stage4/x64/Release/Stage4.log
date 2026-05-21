@@ -1,0 +1,26 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Enemy.cpp
+  Event.cpp
+  gameobject.cpp
+  gamestate.cpp
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\box.h(42,35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\SecondLevel.h(9,28): warning C4584: 'SecondLevel': base-class 'GameObject' is already a base-class of 'Level'
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\gameobject.h(10,7): message : see declaration of 'GameObject'
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\level.h(14,7): message : see declaration of 'Level'
+  level.cpp
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\box.h(42,35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\level.cpp(367,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\level.cpp(367,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\level.cpp(372,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\level.cpp(372,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\level.cpp(382,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\level.cpp(383,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\level.cpp(390,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\level.cpp(391,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\level.cpp(398,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\level.cpp(399,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+  player.cpp
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\Stage4\box.h(42,35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+Event.obj : error LNK2001: unresolved external symbol "public: __cdecl Event::~Event(void)" (??1Event@@QEAA@XZ)
+C:\Users\gogom\Downloads\pi52\ver81\start over1\right\bin\Stage4.exe : fatal error LNK1120: 1 unresolved externals

@@ -1,0 +1,9 @@
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+B  Bd             B                    B
+B  BBBBB             d         BBB     B
+B        B          BBB     BBB        B
+BB       BBB            BB         BB  B
+BBB                BBBB                B
+BBBB           BB  BB                  B
+BBBBB             BB               d  DB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
