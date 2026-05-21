@@ -1,0 +1,155 @@
+<diagram program="umletino" version="15.1"><zoom_level>6</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>372</x><y>0</y><w>276</w><h>120</h></coordinates><panel_attributes>USER
+--
+#first_name : string
+#last_name : string
+#username : string
+#password : string
+#date_of_birth : date 
+#department : string
+#university : string 
+#id : int
+--
++check_if_user_exists(ID:int,User :u):boolean
++unique_username(username:String,User : u):boolean
++check_login_fields(String : username, String : password, User u):boolean 
+
+
+
+bg=gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>132</x><y>192</y><w>300</w><h>48</h></coordinates><panel_attributes>STUDENT
+--
+bg=gray
+ListOfQuestionsPerStudent:List&lt;Question&gt;
+--
++createTest(int:q, int :s String: l, int :id, ArrayList&lt;Question&gt;: ListOfQuestions)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>462</x><y>192</y><w>198</w><h>102</h></coordinates><panel_attributes>PROFESSOR
+--
+-level : string
+--
++create_subject(String :name,int: id,int :semester)
++delete_subject(int subid)
++update_subject(int subid, int choice,String l : String :d, 
+String :ch1,String :ch2,String :ch3,String :ch4, int : id , 
+String: prof_ans, boolean :s )
+
+bg=gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>432</x><y>114</y><w>18</w><h>42</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>132</y><w>126</w><h>72</h></coordinates><panel_attributes></panel_attributes><additional_attributes>190;20;10;20;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>408</x><y>132</y><w>168</w><h>72</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;260;20;260;100</additional_attributes></element><element><id>Relation</id><coordinates><x>294</x><y>234</y><w>48</w><h>174</h></coordinates><panel_attributes>lt=&lt;-
+
+
+
+
+
+
+
+
+
+
+
+
+-TestList
+m1=*
+m2=1
+</panel_attributes><additional_attributes>10;270;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>396</y><w>360</w><h>144</h></coordinates><panel_attributes>TESTS
+--
+-name : string
+-quantity : int 
+-date_of_creation : date
+-/level : string
+-/score : String
+--
++choose_random_all_questions(int :amount List &lt;Question&gt; :QuestionListStudent):List&lt;Question&gt;
++updatescore(Tests : test): int : fs
++setStatequestion(id:int,List&lt;Question&gt; : QuestionListStudent , boolean : s)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>756</x><y>192</y><w>156</w><h>108</h></coordinates><panel_attributes>SUBJECT
+--
+-name : string
+-id : int
+-semester : int 
+--
++ addQuestions(String l : String :d, String :ch1,String :ch2,String :ch3,String :ch4, int : id , String: prof_ans, boolean :s )
++deleteQuestion(int : id)
++equals(Subect : ob): boolean
++ toString(): String 
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>654</x><y>204</y><w>114</w><h>30</h></coordinates><panel_attributes>lt=&lt;-
+																																	-subjects
+m1=*
+m2=1
+</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>558</x><y>408</y><w>282</w><h>156</h></coordinates><panel_attributes>QUESTION
+--
+-level : string 
+-description : string 
+-choice1 : string 
+-choice2 : string 
+-choice3 : string 
+-choice4 : string 
+-id : int 
+-prof_ans : int 
+-state:boolean
+--
++toString(): String
++checkAns(q: Question, studans : Student_ans):boolean
+
+bg=#542
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>366</x><y>624</y><w>156</w><h>36</h></coordinates><panel_attributes>STUDENT'S ANSWER
+--
+-number_of_choice : String
+--
++toString():String
+
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>468</x><y>408</y><w>102</w><h>228</h></coordinates><panel_attributes>lt=&lt;-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-st_ans
+m1=1
+m2=1
+</panel_attributes><additional_attributes>10;360;10;100;150;100</additional_attributes></element><element><id>Relation</id><coordinates><x>798</x><y>294</y><w>54</w><h>126</h></coordinates><panel_attributes>lt=&lt;-
+
+
+
+
+
+
+
+-questions
+m1=*
+m2=1
+</panel_attributes><additional_attributes>10;190;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>432</y><w>114</w><h>204</h></coordinates><panel_attributes>lt=&lt;-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-ListOfQuestions
+m1=*
+m2=1
+</panel_attributes><additional_attributes>80;320;80;70;10;70</additional_attributes></element></diagram>

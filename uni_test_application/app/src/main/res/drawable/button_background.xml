@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Κατάσταση όταν το κουμπί πατιέται -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#5AA4C5" /> <!-- Χρώμα όταν πατιέται -->
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+
+    <!-- Κατάσταση όταν το κουμπί επιλέγεται (focus) -->
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#4756AB" /> <!-- Χρώμα όταν έχει focus -->
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+
+    <!-- Κανονική κατάσταση -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#3F51B5" /> <!-- Κανονικό χρώμα -->
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+
+</selector>
+

@@ -1,0 +1,56 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text>Space for diagram note</help_text><element><id>UMLClass</id><coordinates><x>513</x><y>0</y><w>198</w><h>135</h></coordinates><panel_attributes>USER
+--
+first_name : string
+last_name : string
+username : string
+password : string
+date_of_birth : date 
+department : string
+university : string 
+bg=gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>369</x><y>297</y><w>90</w><h>72</h></coordinates><panel_attributes>STUDENT
+--
+id : int
+bg=gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>729</x><y>297</y><w>144</w><h>81</h></coordinates><panel_attributes>PROFESSOR
+--
+id : int
+level : string
+bg=gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>603</x><y>126</y><w>27</w><h>117</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>405</x><y>207</y><w>189</w><h>108</h></coordinates><panel_attributes></panel_attributes><additional_attributes>190;20;10;20;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>567</x><y>207</y><w>252</w><h>108</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;260;20;260;100</additional_attributes></element><element><id>Relation</id><coordinates><x>396</x><y>360</y><w>54</w><h>324</h></coordinates><panel_attributes>lt=-
+m1=*
+m2=1
+does</panel_attributes><additional_attributes>10;340;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>315</x><y>666</y><w>180</w><h>108</h></coordinates><panel_attributes>TEST
+--
+name : string
+quantity : int 
+date_of_creation : date
+/level : string
+/score : string
+bg=magenta</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1035</x><y>297</y><w>126</w><h>72</h></coordinates><panel_attributes>SUBJECT
+--
+name : string
+id : int
+semester : int 
+bg=black
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>864</x><y>315</y><w>189</w><h>45</h></coordinates><panel_attributes>lt=-
+m1=*
+m2=1
+manages</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>639</x><y>621</y><w>126</w><h>144</h></coordinates><panel_attributes>QUESTION
+--
+level : string 
+description : string 
+choice1 : string 
+choice2 : string 
+choice3 : string 
+choice4 : string 
+id : int 
+prof_ans : int 
+state:boolean
+bg=#542</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>504</x><y>837</y><w>135</w><h>63</h></coordinates><panel_attributes>STUDENT'S ANSWER
+--
+number_of_choice : int
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>693</y><w>171</w><h>45</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=*
+contains</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>684</x><y>360</y><w>450</w><h>279</h></coordinates><panel_attributes>lt=-
+m1=*
+m2=1
+contains</panel_attributes><additional_attributes>10;290;10;170;470;170;470;10</additional_attributes></element><element><id>Relation</id><coordinates><x>558</x><y>706</y><w>27</w><h>144</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element></diagram>

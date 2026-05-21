@@ -1,0 +1,39 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>Text</id><coordinates><x>150</x><y>30</y><w>130</w><h>80</h></coordinates><panel_attributes>// Boundary Element
+	RandomChoiceUI
+	  
+_umletcode=
+// Boundary Symbol
+drawCircle(50, 50, 20)
+drawLine(20, 50, 30, 50)
+drawLine(20, 30, 20, 70)	 
+	</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>0</x><y>30</y><w>60</w><h>110</h></coordinates><panel_attributes>Student</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>20</x><y>120</y><w>30</w><h>380</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;360</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>120</y><w>30</w><h>380</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;360</additional_attributes></element><element><id>Text</id><coordinates><x>320</x><y>30</y><w>170</w><h>80</h></coordinates><panel_attributes>// Control Element
+	     RandomChoiceController
+	     
+_umletcode=
+// Control Symbol
+drawCircle(50, 50, 20)
+drawLine(44, 31, 54, 21)
+drawLine(44, 31, 54, 41)
+	</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>120</y><w>30</w><h>530</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;510</additional_attributes></element><element><id>Text</id><coordinates><x>530</x><y>30</y><w>170</w><h>80</h></coordinates><panel_attributes>// Entity Element
+	      Test
+	      
+_umletcode=
+// Entity Symbol
+drawCircle(50, 50, 20)
+drawLine(30, 70, 70, 70)
+	</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>120</y><w>30</w><h>450</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;430</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>200</x><y>180</y><w>20</w><h>200</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>20</x><y>190</y><w>200</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+choosing random
+ questions</panel_attributes><additional_attributes>180;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>360</x><y>200</y><w>20</w><h>400</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>570</x><y>170</y><w>30</w><h>230</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>330</y><w>220</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+TempTest</panel_attributes><additional_attributes>10;20;200;20</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>310</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+choose_random_all_questions(amount,QuestionListStudent)</panel_attributes><additional_attributes>270;20;80;20</additional_attributes></element><element><id>Text</id><coordinates><x>690</x><y>30</y><w>170</w><h>80</h></coordinates><panel_attributes>// Entity Element
+	      Student
+	      
+_umletcode=
+// Entity Symbol
+drawCircle(50, 50, 20)
+drawLine(30, 70, 70, 70)
+	</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>730</x><y>110</y><w>30</w><h>530</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;510</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>730</x><y>140</y><w>20</w><h>200</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>210</y><w>380</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+getQuestionListStudent()</panel_attributes><additional_attributes>360;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>240</y><w>380</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+QuestionListStudent</panel_attributes><additional_attributes>10;20;360;20</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>200</y><w>180</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+find student 
+ questions list </panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element></diagram>

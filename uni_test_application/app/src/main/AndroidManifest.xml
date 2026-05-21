@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/UniTestApplication"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity
+            android:name=".view.tests_creation.tests_creationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.sing_up.Student.SingUpStudentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.sing_up.Professor.SingUpProfessorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.log_in.LogInActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity" android:exported="true">
+        </activity>
+
+        <activity android:name=".view.Subject.CreateSubject.CreateSubjectActivity" />
+        <activity
+            android:name=".view.Subject.Search.SubjectSearchActivity"
+            android:exported="true"
+            android:label="Διαγραφή μαθήματος "/>
+        <activity
+            android:name=".view.Subject.UpdateSubject.SubjectUpdateActivity"
+            android:exported="true"
+            android:label="Ενημέρωση μαθήματος"/>
+        <activity
+            android:name=".view.Subject.UpdateSubject.QuestionManagment.QuestionManagmentActivity"
+            android:exported="true"
+            android:label="Διαχείριση ερωτήσεων"/>
+        <activity android:name=".view.Subject.UpdateSubject.QuestionManagment.DeleteQuestion.DeleteQuestionActivity" />
+        <activity android:name=".view.Subject.UpdateSubject.QuestionManagment.CreateQuestion.CreateQuestionActivity" />
+        <activity android:name=".view.showSubject.showSubjectActivity" />
+        <activity android:name=".view.do_test.do_testActivity"
+            android:exported="true"
+            android:label="do test"
+            />
+        <activity android:name=".view.showScore.showScoreActivity" />
+        <activity android:name=".view.Subject.Monitor.ListsubjectsActivity"/>
+        <activity android:name=".view.Subject.Monitor.showsuccess.showsuccessActivity"/>
+
+    </application>
+
+
+
+
+
+    </manifest>
+
+

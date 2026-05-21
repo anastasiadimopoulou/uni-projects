@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/item_background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Δημιουργία Ερωτήματος"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="24dp"
+            android:textColor="@color/white"
+            android:background="@drawable/text_shape"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Εκφώνηση Ερωτήματος:"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Πληκτρολογήστε την εκφώνηση του ερωτήματος "
+            android:background="@drawable/edittext_background"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:id="@+id/quest_description"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Πρώτη Διαθέσιμη Απάντηση (Α)"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Πληκτρολογήστε την πρώτη διαθέσιμη απάντηση"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:id="@+id/quest_choiceA"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Δεύτερη Διαθέσιμη Απάντηση (Β)"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint= "Πληκτρολογήστε τη δεύτερη διαθέσιμη απάντηση"
+            android:background="@drawable/edittext_background"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:inputType="text"
+            android:id="@+id/quest_choiceB"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Τρίτη Διαθέσιμη Απάντηση (C)"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint= "Πληκτρολογήστε τη τρίτη διαθέσιμη απάντηση"
+            android:background="@drawable/edittext_background"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:inputType="text"
+            android:id="@+id/quest_choiceC"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Τέταρτη Διαθέσιμη Απάντηση (D)"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint= "Πληκτρολογήστε τη τέταρτη διαθέσιμη απάντηση"
+            android:background="@drawable/edittext_background"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:inputType="text"
+            android:id="@+id/quest_choiceD"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Σωστή Απάντηση"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint= "Πληκτρολογήστε τη σωστή απάντηση (A,B,C,D)"
+            android:background="@drawable/edittext_background"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:inputType="text"
+            android:id="@+id/quest_prof_ans"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Επίπεδο Δυσκολίας"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint= "Πληκτρολογήστε το επίπεδο δυσκολίας "
+            android:background="@drawable/edittext_background"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:inputType="text"
+            android:id="@+id/quest_level"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp"
+            android:gravity="center">
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Δημιουργία"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="16dp"
+                android:padding="12dp"
+                android:background="@drawable/button_background"
+                android:id="@+id/button_create_quest"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="16dp"
+                android:padding="12dp"
+                android:background="@drawable/button_background"
+                android:id="@+id/button_back_quest"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

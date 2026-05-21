@@ -1,0 +1,64 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>152</x><y>28</y><w>104</w><h>24</h></coordinates><panel_attributes>AppCompactActivity</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>104</x><y>124</y><w>240</w><h>192</h></coordinates><panel_attributes>SingUpProfessorActivity
+-
++extractProfessorPassword():String
++extractProfessorUsername():String
++extractProfessorName():String
++extractProfessorSurname():String
++extractProfessorBirthDate():String
++extractProfessorId():int
++showErrorMessage( String title,  String message):void
++showSuccessSingUpMessage(String title, String message):void
++openLogInActivity():void
++ extractProfessorDepartment():String
++extractProfessorUniversity():String
++extractProfessorAcademicPosition():String
+
+
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>44</y><w>24</w><h>96</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>124</y><w>256</w><h>200</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+SingUpProfessorView
+-
++extractProfessorPassword():String
++extractProfessorUsername():String
++ extractProfessorName():String
++extractProfessorSurname():String
++extractProfessorBirthDate():String
++extractProfessorId():int
++showErrorMessage( String title,  String message):void
++showSuccessSingUpMessage(String title, String message):void
++openLogInActivity():void
++ extractProfessorDepartment():String
++extractProfessorUniversity():String
++extractProfessorAcademicPosition():String
+
+
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>384</x><y>388</y><w>208</w><h>112</h></coordinates><panel_attributes>SingUpProfessorPresenter
+-
++setView(SingUpProfessorView view):void
++getView():SingUpProfessorView
++getUserDAO():UserDAO
++ getProfessorDAO():ProfessorDAO
++goToLogIn():void
++ CreateProfessorAccount():void
++verification():void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>128</x><y>380</y><w>200</w><h>64</h></coordinates><panel_attributes>SingUpProfessorViewModel
+-
+ getPresenter():SingUpProfessorPresenter</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>336</x><y>148</y><w>80</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>424</x><y>316</y><w>56</w><h>88</h></coordinates><panel_attributes>lt=&lt;-
+
+-view</panel_attributes><additional_attributes>10;10;30;90</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>380</y><w>80</w><h>48</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>80;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>184</x><y>308</y><w>72</w><h>88</h></coordinates><panel_attributes>lt=&lt;-
+
+
+
+
+-viewModel
+1</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>336</x><y>180</y><w>72</w><h>224</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>70;260;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>580</y><w>80</w><h>24</h></coordinates><panel_attributes>User</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>580</y><w>80</w><h>24</h></coordinates><panel_attributes>Professor</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>304</x><y>484</y><w>96</w><h>112</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;120;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>576</x><y>492</y><w>56</w><h>104</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>50;110;10;10</additional_attributes></element></diagram>

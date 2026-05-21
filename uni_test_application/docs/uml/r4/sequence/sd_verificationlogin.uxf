@@ -1,0 +1,50 @@
+<diagram program="umletino" version="15.1"><zoom_level>11</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>77</x><y>0</y><w>176</w><h>33</h></coordinates><panel_attributes>_:LogInPresenter_
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>308</x><y>0</y><w>165</w><h>33</h></coordinates><panel_attributes>_:LogInView_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>154</x><y>44</y><w>33</w><h>803</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;710</additional_attributes></element><element><id>Relation</id><coordinates><x>374</x><y>22</y><w>33</w><h>803</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;710</additional_attributes></element><element><id>Relation</id><coordinates><x>33</x><y>66</y><w>154</w><h>55</h></coordinates><panel_attributes>lt=&lt;&lt;-
+verification()
+</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>154</x><y>66</y><w>22</w><h>649</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>374</x><y>88</y><w>22</w><h>627</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>165</x><y>121</y><w>231</w><h>44</h></coordinates><panel_attributes>lt=&lt;&lt;-
+extractPassword()</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>132</x><y>242</y><w>297</w><h>44</h></coordinates><panel_attributes>lt=&lt;&lt;-
+showErrorMessage("Error!","Missing Fields")</panel_attributes><additional_attributes>220;20;40;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>11</x><y>187</y><w>704</w><h>583</h></coordinates><panel_attributes>opt
+password.isEmpty()||username.isEmpty()
+--
+
+
+
+
+-.
+
+
+
+
+                                                 
+
+
+
+
+-.
+
+
+
+
+
+
+                                                    </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>165</x><y>297</y><w>484</w><h>44</h></coordinates><panel_attributes>lt=&lt;&lt;-
+findByUsernameAndPassword(username,password)</panel_attributes><additional_attributes>420;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>308</x><y>0</y><w>165</w><h>33</h></coordinates><panel_attributes>_:LogInView_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>0</y><w>165</w><h>33</h></coordinates><panel_attributes>_:UserDAO_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>616</x><y>33</y><w>33</w><h>759</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;670</additional_attributes></element><element><id>Relation</id><coordinates><x>165</x><y>308</y><w>484</w><h>55</h></coordinates><panel_attributes>lt=&lt;.
+user</panel_attributes><additional_attributes>10;20;420;30</additional_attributes></element><element><id>Relation</id><coordinates><x>99</x><y>396</y><w>363</w><h>55</h></coordinates><panel_attributes>lt=&lt;&lt;-
+showErrorMessage("Login Error!","We couldn't find an 
+account with that username and password..")</panel_attributes><additional_attributes>250;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>154</x><y>462</y><w>484</w><h>44</h></coordinates><panel_attributes>lt=&lt;&lt;-
+findByUsernameAndPassword(username,password)</panel_attributes><additional_attributes>420;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>165</x><y>484</y><w>473</w><h>44</h></coordinates><panel_attributes>lt=&lt;.
+user</panel_attributes><additional_attributes>10;20;410;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>66</x><y>352</y><w>583</w><h>88</h></coordinates><panel_attributes>if user==null</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>44</x><y>517</y><w>660</w><h>220</h></coordinates><panel_attributes>if user==!null
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>165</x><y>154</y><w>231</w><h>44</h></coordinates><panel_attributes>lt=&lt;&lt;-
+extractUsername()</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>66</x><y>561</y><w>605</w><h>132</h></coordinates><panel_attributes>user instanceof Professor</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>0</x><y>583</y><w>198</w><h>66</h></coordinates><panel_attributes>lt=&lt;&lt;-
+goToHomePageProfessor()
+
+</panel_attributes><additional_attributes>140;20;30;20</additional_attributes></element><element><id>Relation</id><coordinates><x>55</x><y>616</y><w>638</w><h>33</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>560;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>22</x><y>638</y><w>176</w><h>66</h></coordinates><panel_attributes>lt=&lt;&lt;-
+goToHomePageStudent()
+
+</panel_attributes><additional_attributes>130;20;20;20</additional_attributes></element><element><id>Relation</id><coordinates><x>165</x><y>594</y><w>231</w><h>66</h></coordinates><panel_attributes>lt=&lt;&lt;-
+openProfessorHomePageActivity
+
+</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>165</x><y>660</y><w>231</w><h>66</h></coordinates><panel_attributes>lt=&lt;&lt;-
+openStudentHomePageActivity()
+
+</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element></diagram>

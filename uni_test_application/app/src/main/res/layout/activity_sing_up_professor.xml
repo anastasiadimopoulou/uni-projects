@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.sing_up.Professor.SingUpProfessorActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="115dp"
+        android:background="#3F51B5"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="234dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="204dp"
+        android:text="Sign up as Professor"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="265dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="333dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="248dp"
+        android:text="complete the following fields:"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/surnameText"
+        android:layout_width="265dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Surname"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/nameText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/nameText"
+        app:layout_constraintTop_toBottomOf="@+id/nameText" />
+
+    <EditText
+        android:id="@+id/BirthDateText"
+        android:layout_width="265dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="BirthDay"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/surnameText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/surnameText"
+        app:layout_constraintTop_toBottomOf="@+id/surnameText" />
+
+    <EditText
+        android:id="@+id/ProfessorIdText"
+        android:layout_width="265dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Professor ID"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/BirthDateText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/BirthDateText"
+        app:layout_constraintTop_toBottomOf="@+id/BirthDateText"
+        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/departmentText"
+        android:layout_width="265dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Department"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/ProfessorIdText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ProfessorIdText"
+        app:layout_constraintTop_toBottomOf="@+id/ProfessorIdText" />
+
+    <EditText
+        android:id="@+id/UniversityText"
+        android:layout_width="265dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="University"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/departmentText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/departmentText"
+        app:layout_constraintTop_toBottomOf="@+id/departmentText" />
+
+    <EditText
+        android:id="@+id/academicPositionText"
+        android:layout_width="265dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Academic Position"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/UniversityText"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/UniversityText"
+        app:layout_constraintTop_toBottomOf="@+id/UniversityText" />
+
+    <Button
+        android:id="@+id/btnCreateProfessor"
+        android:layout_width="152dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:text="Create account"
+        android:radius="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/PasswordProfessorText"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordProfessorText" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="102dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Back"
+        android:radius="16dp"
+        app:layout_constraintStart_toStartOf="@+id/UsernameprofessorText"
+        app:layout_constraintTop_toBottomOf="@+id/UsernameprofessorText" />
+
+    <EditText
+        android:id="@+id/UsernameprofessorText"
+        android:layout_width="172dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/academicPositionText" />
+
+    <EditText
+        android:id="@+id/PasswordProfessorText"
+        android:layout_width="172dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/academicPositionText" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="124dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/professoricon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
