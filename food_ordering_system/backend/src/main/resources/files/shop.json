@@ -1,0 +1,97 @@
+{
+  "Shops": [
+    {
+      "ShopName": "Pizza Fun",
+      "Latitude": 37.9932963,
+      "Longitude": 23.733413,
+      "FoodCategory": "pizzeria",
+      "Stars": 3,
+      "NoOfVotes": 15,
+      "ShopLogo": "src/main/resources/images/pizzafan.png",
+      "Products": [
+        {
+          "ProductName": "margarita",
+          "ProductType": "pizza",
+          "AvailableAmount": 5000,
+          "Price": 9.2
+        },
+        {
+          "ProductName": "special",
+          "ProductType": "pizza",
+          "AvailableAmount": 1000,
+          "Price": 12
+        }
+      ]
+    },
+    {
+      "ShopName": "Burger King",
+      "Latitude": 37.9933428,
+      "Longitude": 23.7330333,
+      "FoodCategory": "fast food",
+      "Stars": 4,
+      "NoOfVotes": 45,
+      "ShopLogo": "src/main/resources/images/BurgerKingLogo.png",
+      "Products": [
+        {
+          "ProductName": "cheeseburger",
+          "ProductType": "burger",
+          "AvailableAmount": 3000,
+          "Price": 5.5
+        },
+        {
+          "ProductName": "double whopper",
+          "ProductType": "burger",
+          "AvailableAmount": 2000,
+          "Price": 7.8
+        }
+      ]
+    },
+    {
+      "ShopName": "Sushi House",
+      "Latitude": 37.9819609,
+      "Longitude": 23.7288745,
+      "FoodCategory": "sushi",
+      "Stars": 5,
+      "NoOfVotes": 78,
+      "ShopLogo": "src/main/resources/images/sushiLogo.jpg",
+      "Products": [
+        {
+          "ProductName": "salmon nigiri",
+          "ProductType": "sushi",
+          "AvailableAmount": 1500,
+          "Price": 14.5
+        },
+        {
+          "ProductName": "tuna roll",
+          "ProductType": "sushi",
+          "AvailableAmount": 1000,
+          "Price": 20.2
+        }
+      ]
+    },
+    {
+      "ShopName": "Sweet House",
+      "Latitude": 37.9704454,
+      "Longitude": 23.7976608,
+      "FoodCategory": "sweets",
+      "Stars": 3,
+      "NoOfVotes": 50,
+      "ShopLogo": "src/main/resources/images/patisserie.jpg",
+      "Products": [
+        {
+          "ProductName": "lila pause cake",
+          "ProductType": "sweets",
+          "AvailableAmount": 13,
+          "Price": 4.5
+        },
+        {
+          "ProductName": "dark chocolate muffin",
+          "ProductType": "sweets",
+          "AvailableAmount": 10,
+          "Price": 6.2
+        }
+      ]
+    }
+
+  ]
+}

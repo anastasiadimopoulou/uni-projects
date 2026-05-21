@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- LOGO ΕΙΚΟΝΑ -->
+        <ImageView
+            android:id="@+id/logoImage"
+
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+
+            android:adjustViewBounds="true"
+            android:src="@drawable/bitebox"
+            android:contentDescription="App Logo"
+            android:layout_marginBottom="24dp" />
+
+        <!-- ΤΙΤΛΟΣ: Κατηγορία -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Category"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/categoryEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Souvlaki, Pizza, Sushi"
+            android:layout_marginTop="8dp" />
+
+        <!-- ΤΙΤΛΟΣ: Αστέρια -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Stars"
+            android:textSize="16sp" />
+
+        <RatingBar
+            android:id="@+id/starsRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@android:color/black"
+            android:numStars="5"
+            android:stepSize="1.0" />
+
+        <!-- ΤΙΤΛΟΣ: Τιμή -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Price Category"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/priceEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="$, $$, $$$"
+            android:layout_marginTop="8dp" />
+
+        <!-- ΚΟΥΜΠΙ ΥΠΟΒΟΛΗΣ -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/black"
+            android:text="Search" />
+    </LinearLayout>
+</ScrollView>
